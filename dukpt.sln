@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tp_fixbuzzer", "tp_fixbuzzer\tp_fixbuzzer.vcxproj", "{2ABE9BC5-E046-410A-963D-261C6A00A8C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yss_dukpt", "yss_dukpt\yss_dukpt.vcxproj", "{87FA0420-B6E2-4612-AB82-E0D2FE00B4BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tp_dukpt", "tp_dukpt\tp_dukpt.vcxproj", "{0B0D9590-B7AB-4F6A-AB9B-EEFA3F0FCCFD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tp_lpu239_hard", "tp_lpu239_hard\tp_lpu239_hard.vcxproj", "{10DB13AF-2BAA-4A1E-82EF-595B7D6C2577}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_mbcs|Win32 = Debug_mbcs|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABE9BC5-E046-410A-963D-261C6A00A8C3}.Debug_mbcs|Win32.ActiveCfg = Debug|Win32
+		{2ABE9BC5-E046-410A-963D-261C6A00A8C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2ABE9BC5-E046-410A-963D-261C6A00A8C3}.Debug|Win32.Build.0 = Debug|Win32
+		{2ABE9BC5-E046-410A-963D-261C6A00A8C3}.Release|Win32.ActiveCfg = Release|Win32
+		{2ABE9BC5-E046-410A-963D-261C6A00A8C3}.Release|Win32.Build.0 = Release|Win32
+		{87FA0420-B6E2-4612-AB82-E0D2FE00B4BC}.Debug_mbcs|Win32.ActiveCfg = Debug|Win32
+		{87FA0420-B6E2-4612-AB82-E0D2FE00B4BC}.Debug_mbcs|Win32.Build.0 = Debug|Win32
+		{87FA0420-B6E2-4612-AB82-E0D2FE00B4BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87FA0420-B6E2-4612-AB82-E0D2FE00B4BC}.Release|Win32.ActiveCfg = Release|Win32
+		{0B0D9590-B7AB-4F6A-AB9B-EEFA3F0FCCFD}.Debug_mbcs|Win32.ActiveCfg = Debug_mbcs|Win32
+		{0B0D9590-B7AB-4F6A-AB9B-EEFA3F0FCCFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B0D9590-B7AB-4F6A-AB9B-EEFA3F0FCCFD}.Debug|Win32.Build.0 = Debug|Win32
+		{0B0D9590-B7AB-4F6A-AB9B-EEFA3F0FCCFD}.Release|Win32.ActiveCfg = Release|Win32
+		{0B0D9590-B7AB-4F6A-AB9B-EEFA3F0FCCFD}.Release|Win32.Build.0 = Release|Win32
+		{10DB13AF-2BAA-4A1E-82EF-595B7D6C2577}.Debug_mbcs|Win32.ActiveCfg = Debug|Win32
+		{10DB13AF-2BAA-4A1E-82EF-595B7D6C2577}.Debug_mbcs|Win32.Build.0 = Debug|Win32
+		{10DB13AF-2BAA-4A1E-82EF-595B7D6C2577}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10DB13AF-2BAA-4A1E-82EF-595B7D6C2577}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

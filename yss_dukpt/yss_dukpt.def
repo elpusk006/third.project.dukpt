@@ -1,0 +1,31 @@
+LIBRARY		yss_dukpt
+EXPORTS
+	CurrentCryptoKey
+	TDES_Encryption
+	TDES_Decryption
+	AES_Encryption
+	AES_Decryption
+	GetInitalKey
+	dukpt_generate_ipek
+	dukpt_generate_sk
+	dukpt_generate_pin_encryption_key
+	dukpt_generate_mac_request_key
+	dukpt_generate_mac_response_key
+	dukpt_generate_data_encryption_request_key
+	dukpt_generate_data_encryption_response_key
+	dukpt_generate_mac
+	dukpt_get_mac4_from_mac8
+
+	encrypt_ebc_des
+	decrypt_ebc_des
+	encrypt_cbc_des
+	decrypt_cbc_des
+	encrypt_ebc_tdes
+	decrypt_ebc_tdes
+	encrypt_cbc_tdes
+	decrypt_cbc_tdes
+	encrypt_cbc_aes
+	decrypt_cbc_aes
+
+	encode_base64
+	decode_base64

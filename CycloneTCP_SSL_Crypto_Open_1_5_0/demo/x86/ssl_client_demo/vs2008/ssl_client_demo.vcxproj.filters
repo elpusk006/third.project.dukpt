@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{8f968305-f670-42c8-b2d3-e3a94e38ebe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CycloneCrypto">
+      <UniqueIdentifier>{6a169ca7-bb15-4324-b0ed-e90b0737eb5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CycloneSSL">
+      <UniqueIdentifier>{5657bcbd-8adc-4856-b475-bc812a56aff4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\crypto_config.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\os_port_config.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tls_config.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common\date_time.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common\debug.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common\endian.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common\error.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common\os_port.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common\os_port_windows.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\aes.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\aria.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\asn1.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\base64.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\camellia.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\cipher_mode_cbc.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\cipher_mode_ccm.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\cipher_mode_cfb.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\cipher_mode_ctr.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\cipher_mode_ecb.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\cipher_mode_gcm.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\cipher_mode_ofb.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\crypto.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\des.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\des3.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\dh.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\dsa.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\ec.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\ec_curves.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\ecdh.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\ecdsa.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\hmac.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\idea.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\md2.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\md4.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\md5.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\mpi.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\oid.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\pem.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\pkcs5.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\rc4.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\rc6.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\ripemd128.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\ripemd160.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\rsa.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\seed.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\sha1.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\sha224.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\sha256.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\sha384.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\sha512.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\sha512_224.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\sha512_256.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\tiger.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\whirlpool.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\x509.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_crypto\yarrow.h">
+      <Filter>CycloneCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\ssl_common.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls_cache.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls_cipher_suites.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls_client.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls_common.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls_io.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls_misc.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls_record.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\cyclone_ssl\tls_server.h">
+      <Filter>CycloneSSL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\date_time.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\debug.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\endian.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\os_port_windows.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\aes.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\aria.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\asn1.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\base64.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\camellia.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\cipher_mode_cbc.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\cipher_mode_ccm.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\cipher_mode_cfb.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\cipher_mode_ctr.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\cipher_mode_ecb.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\cipher_mode_gcm.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\cipher_mode_ofb.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\des.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\des3.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\dh.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\dsa.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\ec.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\ec_curves.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\ecdh.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\ecdsa.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\hmac.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\idea.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\md2.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\md4.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\md5.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\mpi.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\oid.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\pem.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\pkcs5.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\rc4.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\rc6.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\ripemd128.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\ripemd160.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\rsa.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\seed.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\sha1.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\sha224.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\sha256.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\sha384.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\sha512.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\sha512_224.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\sha512_256.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\tiger.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\whirlpool.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\x509.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_crypto\yarrow.c">
+      <Filter>CycloneCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\ssl_common.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls_cache.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls_cipher_suites.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls_client.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls_common.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls_io.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls_misc.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls_record.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\cyclone_ssl\tls_server.c">
+      <Filter>CycloneSSL</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
