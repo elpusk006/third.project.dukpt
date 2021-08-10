@@ -53,6 +53,9 @@ ipch/
 *.cachefile
 *.VC.db
 *.VC.VC.opendb
+*.idb
+*.cache
+*.lastbuildstate
 
 # Visual Studio profiler
 *.psess
